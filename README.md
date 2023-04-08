@@ -38,7 +38,25 @@ Paraprogramming is for individuals who can't afford to invest such a substantial
 and are more results oriented. It's also intended as in introduction for those looking to get into roles
 like Data Science, QA, 
 
-## Desiderata
+### Novelty
+
+> Is paraprogramming new? Why create a new word for a collection of pre-existing tools and techniques?
+
+These techniques already existed. As did the principles, on an individual basis. 
+The insight of paraprogramming though is that put together, they form a cohesive skillset that substitutes for a typical Computer Science skillset,
+while having a significantly lower barrier to entry.
+
+One purpose of the name is to help with web searches. A programmer following the traditional path can search `python rest api`, 
+but since paraprogramming is by nature a hodge-podge of various tools, a common search term is helpful.
+
+I also hope that one day paraprogramming will be used on resumes and job descriptions.
+
+By creating something of a brand, I also hope this will encourage developers of relevant tools 
+to embrace paraprogramming principles, most often by teaching their tools to output and accept structured data.
+
+### Desiderata
+
+Here is a list of things that ought to exist in a paraprogramming friendly world
 
 * rss to jsonfeed command line tool
 * graphql wrapper for sqlite
