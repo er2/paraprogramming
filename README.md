@@ -38,6 +38,10 @@ Paraprogramming is for individuals who can't afford to invest such a substantial
 and are more results oriented. It's also intended as in introduction for those looking to get into roles
 like Data Science, QA, 
 
+Paraprogramming is also intended as an introduction to certain programming concepts. Many traditional CS curricula
+as frontloaded with core programming concepts. The problem with this is that if a student bails out in the middle,
+the skills and knowledge they are left with is not readily transferable.
+
 ### Novelty
 
 > Is paraprogramming new? Why create a new word for a collection of pre-existing tools and techniques?
@@ -53,15 +57,3 @@ I also hope that one day paraprogramming will be used on resumes and job descrip
 
 By creating something of a brand, I also hope this will encourage developers of relevant tools 
 to embrace paraprogramming principles, most often by teaching their tools to output and accept structured data.
-
-### Desiderata
-
-Here is a list of things that ought to exist in a paraprogramming friendly world
-
-* rss to jsonfeed command line tool
-* graphql wrapper for sqlite
-* sqlite-like json database
-* sqlite-like xml database
-* browsers generate better css selectors, specifically for ld+json
-* supabase don't lowercase table names
-* nushell accept string for into sqlite 

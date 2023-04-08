@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
-
 ```sh
 http  "https://en.wikipedia.org/wiki/International_Criminal_Court" | pup 'body > script:nth-child(4) text{}' | jq | sqlite-utils insert wiki.db articles -
 ```
