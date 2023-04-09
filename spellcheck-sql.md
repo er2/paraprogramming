@@ -2,7 +2,7 @@
 
 One of the main inspirations for paraprogramming was this old archival video from AT&T
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tc4ROCJYbm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![AT&T Archives: The UNIX Operating System](https://img.youtube.com/vi/tc4ROCJYbm0/0.jpg)](https://www.youtube.com/watch?v=tc4ROCJYbm0)
 
 It demonstrates an elegant unix pipeline that spell checks a document.
 
