@@ -1,7 +1,9 @@
 ```nu
-cat /usr/share/dict/words | from csv | into sqlite words.db -t dict
-cat sentences.txt | split words | to text | sqlite-utils insert --csv words.db corpus - 
-sqlite3 words.db 'select * from corpus where corpus.line not in (select A from dict);'
+open /usr/share/dict/words | from csv --noheaders | rename word | into sqlite words.db -t dict
+open sentences.txt | split words | each { |w| {"word":$w} } | into sqlite words.db -t corpus
+sqlite3 words.db 'select word from corpus where lower(word) not in (select lower(word) from dict);'
 ```
 
-## TODO fix into sqlite treating first line as a header
+```shell
+aspell list < sentences.txt
+```
