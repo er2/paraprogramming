@@ -1,0 +1,8 @@
+{
+  "name": "Paraprogramming",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-focal",
+  "features": {
+    "ghcr.io/eitsupi/devcontainer-features/nushell:0": {},
+    "ghcr.io/warrenbuckley/codespace-features/sqlite:latest": {}
+  }
+}
