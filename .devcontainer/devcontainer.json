@@ -12,7 +12,8 @@
 	"vscode": {
 		"extensions": [
 			"TheNuProjectContributors.vscode-nushell-lang",
-			"DavidAnson.vscode-markdownlint"
+			"DavidAnson.vscode-markdownlint",
+			"cmoog.sqlnotebook"
 		]
 	}
 }
