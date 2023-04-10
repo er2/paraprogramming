@@ -1,11 +1,11 @@
 {
   "name": "Paraprogramming",
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-focal",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
-    "ghcr.io/eitsupi/devcontainer-features/nushell:0": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite:latest": {},
-    "ghcr.io/frntn/devcontainers-features/postman:1": {},
-    "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {}
+    "ghcr.io/eitsupi/devcontainer-features/nushell:0": {},
+    "ghcr.io/devcontainers/features/node:1": {}
   }
 }
