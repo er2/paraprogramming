@@ -11,7 +11,8 @@
 "customizations": {
 	"vscode": {
 		"extensions": [
-			"TheNuProjectContributors.vscode-nushell-lang"
+			"TheNuProjectContributors.vscode-nushell-lang",
+			"DavidAnson.vscode-markdownlint"
 		]
 	}
 }
