@@ -7,5 +7,12 @@
     "ghcr.io/warrenbuckley/codespace-features/sqlite:latest": {},
     "ghcr.io/eitsupi/devcontainer-features/nushell:0": {},
     "ghcr.io/devcontainers/features/node:1": {}
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"TheNuProjectContributors.vscode-nushell-lang"
+		]
+	}
+}
 }
