@@ -1,5 +1,5 @@
 #FROM mcr.microsoft.com/vscode/devcontainers/universal
-FROM ubuntu:jammy
+FROM ubuntu:lunar
 
 RUN apt-get update && apt-get install -y sqlite3 jq httpie curl jc sqlite-utils
 
