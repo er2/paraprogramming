@@ -1,6 +1,8 @@
 #FROM mcr.microsoft.com/vscode/devcontainers/universal
-FROM ubuntu:lunar
+FROM ubuntu:kinetic
 
-RUN apt-get update && apt-get install -y sqlite3 jq httpie curl jc sqlite-utils golang
+RUN apt-get update && apt-get install -y sqlite3 jq httpie curl jc sqlite-utils golang libxml-xpath-perl
 
 RUN go install github.com/ericchiang/pup@latest
+
+RUN snap install yq
