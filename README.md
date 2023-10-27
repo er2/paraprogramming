@@ -25,7 +25,10 @@ The para in paraprogramming is a references to paramedic and paralegal.
 Paraprogramming seeks to define a consistent subset of programming 
 
 One could debate whether paraprogramming is programming. That is a semantic argument. 
-If we meet our goals
+If we meet our goals, this should be a continuing source of debate. "Real" programmers 
+should argue that it's too easy compared to the more difficult techniques they've
+invested significant time learning. Those on the other side of the debate should be able
+to make a string case that paraprogramming gets the job done.
 
 ### Citizen Coder
 
@@ -47,8 +50,8 @@ the skills and knowledge they are left with is not readily transferable.
 > Is paraprogramming new? Why create a new word for a collection of pre-existing tools and techniques?
 
 These techniques already existed. As did the principles, on an individual basis. 
-The insight of paraprogramming though is that put together, they form a cohesive skillset that substitutes for a typical Computer Science skillset,
-while having a significantly lower barrier to entry.
+The insight of paraprogramming though is that put together, they form a cohesive skillset that meaningfully
+substitutes for a typical Computer Science skillset, while having a significantly lower barrier to entry.
 
 One purpose of the name is to help with web searches. A programmer following the traditional path can search `python rest api`, 
 but since paraprogramming is by nature a hodge-podge of various tools, a common search term is helpful.
@@ -57,3 +60,9 @@ I also hope that one day paraprogramming will be used on resumes and job descrip
 
 By creating something of a brand, I also hope this will encourage developers of relevant tools 
 to embrace paraprogramming principles, most often by teaching their tools to output and accept structured data.
+
+### Solutions Engineering and Enterprise Business Applications
+
+Paraprogramming is highly pragmnatic and solutions oriented. Therefore a paraprogramming curriculum ought to cover
+an overview of existing common classes of enterprise business applications, such as ERPs, CMSs, CRMs, Wikis, ticketing
+systems, and document management systems. Don't reinvent the wheel
