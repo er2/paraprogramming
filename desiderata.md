@@ -12,3 +12,4 @@ Here is a list of things that ought to exist in a paraprogramming friendly world
 * CGI-like solution, e.g. An extension of OpenAPI that includes handlers that can launch nushell scripts
 * something for webhooks
 * something for events
+* html templating by piping in structured data values
